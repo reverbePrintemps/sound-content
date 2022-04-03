@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sound-content/static/css/main.46f74482.css",
-    "main.js": "/sound-content/static/js/main.a13a0431.js",
+    "main.css": "/sound-content/static/css/main.491af098.css",
+    "main.js": "/sound-content/static/js/main.cb1f3165.js",
     "static/js/845.ad6e5fcd.chunk.js": "/sound-content/static/js/845.ad6e5fcd.chunk.js",
     "static/js/787.a199abcd.chunk.js": "/sound-content/static/js/787.a199abcd.chunk.js",
     "static/media/TRW_80_C_Drone_Chord_Synth.wav": "/sound-content/static/media/TRW_80_C_Drone_Chord_Synth.b7b8c02ac16761c0b44e.wav",
@@ -30,13 +30,13 @@
     "index.html": "/sound-content/index.html",
     "static/media/pause-icon.svg": "/sound-content/static/media/pause-icon.9f6b96732e832cca9df34583fab45829.svg",
     "static/media/play-icon.svg": "/sound-content/static/media/play-icon.010939f5aa056bdc50b8f31399bee4ec.svg",
-    "main.46f74482.css.map": "/sound-content/static/css/main.46f74482.css.map",
-    "main.a13a0431.js.map": "/sound-content/static/js/main.a13a0431.js.map",
+    "main.491af098.css.map": "/sound-content/static/css/main.491af098.css.map",
+    "main.cb1f3165.js.map": "/sound-content/static/js/main.cb1f3165.js.map",
     "845.ad6e5fcd.chunk.js.map": "/sound-content/static/js/845.ad6e5fcd.chunk.js.map",
     "787.a199abcd.chunk.js.map": "/sound-content/static/js/787.a199abcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46f74482.css",
-    "static/js/main.a13a0431.js"
+    "static/css/main.491af098.css",
+    "static/js/main.cb1f3165.js"
   ]
 }
