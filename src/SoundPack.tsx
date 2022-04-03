@@ -13,11 +13,10 @@ type SoundPackProps = {
 
 export const SoundPack = ({ title, imageSource, audio, isPlaying, onClick }: SoundPackProps) => {
   const [play, { stop }] = useSound(audio);
-
   isPlaying ? play() : stop();
 
   return (
-    <div className='SoundPack'>
+    <button className='SoundPack' onClick={onClick}>
       <div className='SoundPack__footer'>
         <div className='SoundPack__footerControl'>
           <PlayButton isPlaying={isPlaying} onClick={onClick} />
@@ -25,6 +24,6 @@ export const SoundPack = ({ title, imageSource, audio, isPlaying, onClick }: Sou
         </div>
       </div>
       <img className='SoundPack__image' src={imageSource} alt={title} />
-    </div>
+    </button>
   );
 };

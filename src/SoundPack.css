@@ -1,6 +1,9 @@
 .SoundPack {
   width: calc(100% / 3);
   position: relative;
+  padding: 0;
+  border: none;
+  cursor: pointer;
 }
 
 .SoundPack__image {
