@@ -1,0 +1,11 @@
+.SoundGrid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .SoundGrid {
+    width: var(--seven-vw-units);
+  }
+}
