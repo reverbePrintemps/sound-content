@@ -1,0 +1,19 @@
+.Section {
+  width: 100vw;
+}
+
+.Section {
+  font-size: 18px;
+}
+.Section h3 {
+  font-size: 24px;
+}
+
+@media (min-width: 1024px) {
+  .Section {
+    font-size: 20px;
+  }
+  .Section h3 {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,35 @@
+.SectionDescription {
+  display: flex;
+  width: 100%;
+}
+
+.SectionDescription__content {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  padding: var(--one-vw-unit);
+}
+
+.SectionDescription__contentTitle {
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.SectionDescription__contentDescription {
+  margin: 0;
+  padding: 16px 0 0;
+}
+
+@media (min-width: 768px) {
+  .SectionDescription {
+    width: var(--five-vw-units);
+  }
+  .SectionDescription__content {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    padding: 0 0 0 var(--one-vw-unit);
+    max-width: var(--three-vw-units);
+  }
+}

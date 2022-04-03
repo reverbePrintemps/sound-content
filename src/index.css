@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Futura Medium";
+  src: url(./assets/fonts/futura-pt-medium.woff) format("woff"),
+    url(./assets/fonts/futura-pt-medium.woff2) format("woff2");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Futura Book";
+  src: local("futura-pt-book"),
+    url(./assets/fonts/futura-pt-book.woff) format("woff"),
+    url(./assets/fonts/futura-pt-book.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Futura Book Oblique";
+  src: local("futura-pt-book"),
+    url(./assets/fonts/futura-pt-book-oblique.woff) format("woff"),
+    url(./assets/fonts/futura-pt-book-oblique.woff2) format("woff2");
+}
+
+/* Set constants */
+
+:root {
+  --one-vw-unit: calc(100vw / 12);
+  --three-vw-units: calc(100vw / 12 * 3);
+  --five-vw-units: calc(100vw / 12 * 5);
+  --seven-vw-units: calc(100vw / 12 * 7);
+}
+
+/* Remove default margin on Firefox */
+body {
+  margin: 0;
 }

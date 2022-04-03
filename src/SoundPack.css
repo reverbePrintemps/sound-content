@@ -1,0 +1,45 @@
+.SoundPack {
+  width: calc(100% / 3);
+  position: relative;
+}
+
+.SoundPack__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.SoundPack__footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  background-image: none;
+}
+
+.SoundPack__footerControl {
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.SoundPack__footerTitle {
+  font-family: "Futura Medium";
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  margin: 0;
+  padding-left: 16px;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .SoundPack__footer {
+    background-image: linear-gradient(transparent, black);
+  }
+  .SoundPack__footerTitle {
+    display: block;
+  }
+}
